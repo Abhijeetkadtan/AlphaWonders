@@ -1,0 +1,29 @@
+<dependencies>
+  <compile
+      roots="D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:arcore_client:@aar,:UnityARCore:@aar,:VuforiaEngine:@aar,:ARPresto:@aar,:unityandroidpermissions:@aar,D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":arcore_client:@aar"/>
+    <dependency
+        name=":UnityARCore:@aar"/>
+    <dependency
+        name=":VuforiaEngine:@aar"/>
+    <dependency
+        name=":ARPresto:@aar"/>
+    <dependency
+        name=":unityandroidpermissions:@aar"/>
+    <dependency
+        name="D:\AlphaWonders\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>
